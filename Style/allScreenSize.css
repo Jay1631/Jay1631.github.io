@@ -36,8 +36,8 @@
     /* border: 1px solid black; */
 }
 #name_image>div>img{
-    width: 100%;
-    border-radius: 100%;
+    width: 80%;
+    border-radius: 50%;
 }
 #tabs{
     display: flex;
@@ -109,8 +109,8 @@
     cursor: pointer;
 }
 #brief>div>img{
-    width: 10%;
-    border-radius: 100%;
+    width: 20%;
+    border-radius: 10%;
 }
 #contact_details{
     position: fixed;
