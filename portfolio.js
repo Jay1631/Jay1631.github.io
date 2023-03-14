@@ -1,3 +1,5 @@
+// TECH STACKS
+
 let tech_stacks = [
     {
         "teck_name": "Linux",
@@ -55,6 +57,91 @@ tech_stacks.forEach(tech => {
 
     techStackDiv.append(comp);
 })
+
+
+
+let custstackdiv = document.getElementById("customer")
+
+
+let softdiv = document.getElementById("soft")
+
+let customer_stacks = [
+    {
+        "teck_name": "Active Listening",
+        "img_link": "./Images/css/ActiveListening.png"
+      
+    },
+    {
+        "teck_name": "Adaptibility",
+        "img_link": "./Images/css/Adaptibility.png"
+    },
+    {
+        "teck_name": "Problem solving",
+        "img_link": "./Images/css/problem solving.png"
+    },
+    {
+        "teck_name": "Technical Assistance",
+        "img_link": "./Images/css/Technical assistance.png"
+    }
+  
+  ]
+  
+  customer_stacks.map(tech => {
+  
+  
+    let comp = document.createElement("div");
+  
+    let img = document.createElement("img");
+    img.src = tech.img_link;
+    img.alt = tech.teck_name;
+    img.className = "pic"
+    let name = document.createElement("p");
+    name.innerText = tech.teck_name;
+    name.className= "naav"
+  
+    comp.append(img, name);
+  
+    custstackdiv.append(comp);
+  })
+  
+  let soft_stacks = [
+    {
+        "teck_name": "Time Management",
+        "img_link": "./Images/softS/time management.png"
+      
+    },
+    {
+        "teck_name": "Team Building",
+        "img_link": "./Images/softS/team building.png"
+    },
+    {
+        "teck_name": "Decision Making",
+        "img_link": "./Images/softS/decision making.png"
+    },
+    {
+        "teck_name": "Critical Thinking",
+        "img_link": "./Images/softS/critical thinking.png"
+    }
+  
+  ]
+  
+  soft_stacks.map(tech => {
+  
+  
+    let comp = document.createElement("div");
+  
+    let img = document.createElement("img");
+    img.src = tech.img_link;
+    img.alt = tech.teck_name;
+    img.className = "pic"
+    let name = document.createElement("p");
+    name.innerText = tech.teck_name;
+    name.className= "naav"
+  
+    comp.append(img, name);
+  
+    softdiv.append(comp);
+  })
 
 
 let project_details = [
@@ -138,3 +225,5 @@ project_details.forEach(project => {
     Maindiv.append(pictureDiv, descriptionDiv);
     Projects_Div.append(Maindiv);
 });
+
+
