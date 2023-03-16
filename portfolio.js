@@ -160,7 +160,7 @@ let project_details = [
         "details": "The project was a individual project done within 5 days.",
         "tech_stack": "HTML, CSS, JavaScript, github",
         "data_base": "Local Storaage",
-        "banner": "Images/pharmeasy.png",
+        "banner": "Images/Pharmeasy.png",
         "deployed": "https://handsome-ball-4549.netlify.app/index.html",
         "gitlink": "https://github.com/Jay1631/handsome-ball-4549"
     },
@@ -171,7 +171,7 @@ let project_details = [
         "tech_stack": "HTML, CSS, JavaScript, github",
         "data_base": "Json server",
         "banner": "Images/JEFIT.png",
-        "deployed": "https://effulgent-horse-009694.netlify.app",
+        "deployed": "https://unique-trifle-43289e.netlify.app/",
         "gitlink": "https://github.com/Golugauraw1/onerous-train-1093"
     },
 ];
