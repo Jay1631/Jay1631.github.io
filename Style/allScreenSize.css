@@ -504,27 +504,27 @@ html {
     margin-top: 5px;
 }
 
-/* #customer {
+#customer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 30px;
     margin-left: 95px;
     margin: auto;
-    /* text-align: center; 
+    /* text-align: center; */
     justify-content: center;
     padding: 30px;
 
 }
 
-#soft>div {
+/*#soft>div {
     margin: auto;
     text-align: center;
 }
 
 #soft>div p {
     margin-top: 5px;
-}
+}*/
 
 #soft {
     display: grid;
@@ -533,8 +533,8 @@ html {
     gap: 30px;
     margin-left: 95px;
     margin: auto;
-    /* text-align: center; 
+    /* text-align: center; */
     justify-content: center;
     padding: 30px;
 
-} */
+} 
