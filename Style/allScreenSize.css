@@ -511,7 +511,7 @@ html {
     gap: 30px;
     margin-left: 95px;
     margin: auto;
-    /* text-align: center; */
+    text-align: center; 
     justify-content: center;
     padding: 30px;
 
@@ -533,7 +533,7 @@ html {
     gap: 30px;
     margin-left: 95px;
     margin: auto;
-    /* text-align: center; */
+    text-align: center; 
     justify-content: center;
     padding: 30px;
 
