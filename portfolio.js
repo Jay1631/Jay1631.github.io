@@ -172,7 +172,7 @@ let project_details = [
         "data_base": "Json server",
         "banner": "Images/JEFIT.png",
         "deployed": "https://unique-trifle-43289e.netlify.app/",
-        "gitlink": "https://github.com/Golugauraw1/onerous-train-1093"
+        "gitlink": "https://github.com/Jay1631/onerous-train-1093"
     },
 ];
 
